@@ -3,6 +3,8 @@ module.exports = {
     // http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
+    // Composer
+    'composer',
     // Install GNU core utilities (those that come with macOS are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
@@ -44,47 +46,59 @@ module.exports = {
     'wget --enable-iri'
   ],
   cask: [
-    //'adium',
-    //'amazon-cloud-drive',
-    //'atom',
-    // 'box-sync',
-    //'comicbooklover',
-    //'diffmerge',
+    'alfred',
+    'bartender',
+    'bettertouchtool',
+    'charles',
+    'cleanmymac',
+    'diffmerge',
     'docker', // docker for mac
-    //'dropbox',
-    //'evernote',
+    'filezilla',
+    'firefox',
     'flux',
+    'google-chrome',
     'gpg-suite',
-    //'ireadfast',
+    'harvest',
+    'handbrake',
+    'ireadfast',
     'iterm2',
+    'licecap',
     'little-snitch',
     'macbreakz',
+    'mailbox',
     'micro-snitch',
+    'onepassword',
+    'sequel-pro',
     'signal',
-    //'macvim',
     'sizeup',
-    //'sketchup',
+    'sketch',
+    'skype',
     'slack',
+    'spotify',
+    'suspicious-package',
+    'textexpander',
     'the-unarchiver',
-    //'torbrowser',
-    //'transmission',
     'visual-studio-code',
-    //'vlc',
+    'vlc',
     'xquartz'
   ],
   gem: [
   ],
   npm: [
-    'antic',
-    'buzzphrase',
+    'electron',
     'eslint',
     'instant-markdown-d',
-    // 'generator-dockerize',
-    // 'gulp',
+    'ignite-cli',
+    'gatsby-cli',
+    'gulp-cli',
     'npm-check-updates',
     'prettyjson',
+    'react-native-cli',
     'trash',
-    'vtop'
-    // ,'yo'
+    'vtop',
+    'webpack',
+    'wp-cli',
+    'yarn',
+    'yo'
   ]
 };
